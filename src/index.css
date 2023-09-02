@@ -1,56 +1,68 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
-  min-height: 100vh;
-  display: flex;
-  flex-flow: column;
-  background-color: slategray;
-  font-size: 2rem;
+	min-height: 100vh;
+	display: flex;
+	flex-flow: column;
+	background-color: slategray;
+	font-size: 2rem;
 }
 
+header {
+	background-color: #070a0a;
+	color: #fff;
+	border-bottom-left-radius: 1rem;
+	border-bottom-right-radius: 1rem;
+}
 
-main{
-  margin-top: 2rem;
-  display: flex;
-  flex-flow: column;
-  align-items: center;
+header h1 {
+	padding: 1.5rem;
+	font-size: clamp(1rem, 10vw, 3rem);
+	text-align: center;
+}
+
+main {
+	margin-top: 2rem;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
 }
 
 .colorBox {
-  width: 250px;
-  height: 320px;
-  border: 2px solid black;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+	width: 250px;
+	height: 320px;
+	border: 2px solid black;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 label {
-  font-size: 1.5rem; 
-  padding: 10px;
-  display: block;
-  text-align: center;
+	font-size: 1.5rem;
+	padding: 10px;
+	display: block;
+	text-align: center;
 }
 input {
-  padding: 10px;
-  margin-top: 1rem;
-  width: 250px;
-  border-radius: 15px;
-  font-size: 1.1rem;
-  text-align: center;
+	padding: 10px;
+	margin-top: 1rem;
+	width: 250px;
+	border-radius: 15px;
+	font-size: 1.1rem;
+	text-align: center;
 }
 
 button {
-  padding-block: 12px;
-  font-size: 1.2rem;
-  border-radius: 8px;
-  font-weight: bold;
-  width: 250px;
-  display: block;
-  margin-top: 15px;
+	padding-block: 12px;
+	font-size: 1.2rem;
+	border-radius: 8px;
+	font-weight: bold;
+	width: 250px;
+	display: block;
+	margin-top: 15px;
 }
